@@ -78,11 +78,39 @@ body {
 
 .top__heading {
     display: flex;
-
+    align-items: center;
+    justify-content: space-between;
 }
 
 .top__bottom {
     display: flex;
+    align-items: end;
+    justify-content: space-between;
+}
+
+.top__links {
+    display: flex;
+}
+
+
+.top__items {
+    display: flex;
+}
+
+.top__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100px;
+    height: 135px;
+    border: 1px solid grey;
+    text-align: center;
+    padding: 10px 5px;
+}
+
+.top__item-img {
+    width: 20px;
+    height: 20px;
 }
 
 
